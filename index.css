@@ -146,3 +146,49 @@ h1 {
 .hide {
     display: none;
 }
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .container {
+        height: 85vmin;
+        width: 85vmin;
+        max-width: 90vw;
+        max-height: 90vw;
+        padding: 10px;
+    }
+
+    .box {
+        height: 24vmin;
+        width: 24vmin;
+        max-width: 26vw;
+        max-height: 26vw;
+        font-size: 14vmin;
+    }
+
+    .reset_btn {
+        margin-left: 50px; 
+        width: 100%;
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 10vmin;
+        margin-bottom: 1.5rem;
+    }
+
+    #msg {
+        font-size: 12vmin;
+    }
+}
+
+@media (max-width: 600px) {
+    .reset_btn, #new-btn {
+        margin-left: 35px !important; 
+        margin-top: 1.5rem;
+        width: 80%; 
+        max-width: 250px;
+        padding: 1rem;
+        display: block; 
+    }
+}
